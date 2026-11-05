@@ -1,0 +1,22 @@
+name: Latest blog post workflow
+on:
+  schedule:
+    # Run workflow automatically every day at 06:00 UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme-with-blog:
+    name: Update this repo's README with latest blog posts
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Pull in aljazkovac.github.io posts
+        uses: gautamkrishnar/blog-post-workflow@v1
+        with:
+          feed_list: "https://aljazkovac.github.io/feed.xml"
+          max_post_count: "5"
