@@ -9,7 +9,6 @@ Engineering Manager & Platform Engineering Team Lead based in Sweden.
 ## 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-
 - [Finance for Non-Financial Managers](https://aljazkovac.github.io//posts/finance-for-non-financial-managers/)
 - [Agentic AI](https://aljazkovac.github.io//posts/agentic-ai/)
 - [Spec-Driven Development with Coding Agents](https://aljazkovac.github.io//posts/spec-driven-development/)
