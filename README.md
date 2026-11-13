@@ -3,8 +3,11 @@
 Engineering Manager & Platform Engineering Team Lead based in Sweden.
 
 - 🌐 **Blog & Writing:** [aljazkovac.github.io](https://aljazkovac.github.io)
-- 🔭 **Current Projects:**
-  - [**eat-and-burn**](https://github.com/aljazkovac/eat-and-burn) — Personal training and health data pipeline
+
+## 🛠️ Projects
+
+- [ ] [**pulse-pipeline**](https://github.com/aljazkovac/eat-and-burn) — Personal training, nutrition, and health data pipeline
+- [x] [**github-as-code**](https://github.com/aljazkovac/github-as-code) — Declarative GitHub repository & governance management using OpenTofu and GitHub Actions
 
 ## 📝 Latest Blog Posts
 
